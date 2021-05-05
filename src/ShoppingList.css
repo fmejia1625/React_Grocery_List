@@ -1,0 +1,53 @@
+.ShoppingListMain .header input {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #FFF;
+   width: 165px;
+}
+
+h1 {
+  color: #F48328;
+  font-family: Oxygen;
+  font-size: 50px;
+}
+  
+.ShoppingListMain .header button {
+  padding: 10px;
+  font-size: 16px;
+  margin: 10px;
+  margin-right: 0px;
+  background-color: #F48328;
+  color: #FFF;
+  border: 2px solid #F48328;
+}
+  
+.ShoppingListMain .header button:hover {
+  background-color: #BCBEC4;
+  border: 2px solid #BCBEC4;
+  cursor: pointer;
+}
+  
+.ShoppingListMain .theGroceryList {
+  list-style: none;
+  padding-left: 0;
+  width: 250px;
+}
+  
+.ShoppingListMain .theGroceryList li {
+  color: #FFF;
+  background-color: #F48328;
+  padding: 15px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+  transition: background-color .2s ease-out;
+}
+  
+.ShoppingListMain .theGroceryList li:hover {
+  background-color: #BCBEC4;
+  cursor: pointer;
+}
+  
+ul.theGroceryList {
+  padding: 0;
+}
+  
